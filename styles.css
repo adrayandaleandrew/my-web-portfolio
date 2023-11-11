@@ -89,14 +89,9 @@ h1, h2 {
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid white;
+    font-size: 2.7rem;
 }
 
-
-.projects-section-header {
-    max-width: 640px;
-    margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid white;
-}
 h2 {
     font-size: 4.2rem;
 }
