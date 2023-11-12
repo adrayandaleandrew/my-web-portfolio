@@ -85,14 +85,14 @@ h2 {
 
 .projects-section {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 4rem 0rem;  /*4rem 2rem;*/
   background: #45567d;
   width: 100%;
 }
 
 .projects-section-header {
   max-width: 640px;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 2rem auto;
   border-bottom: 0.2rem solid white;
   font-size: 2.7rem;
 }
@@ -275,4 +275,22 @@ footer > p {
   h1 {
     font-size: 3rem;
   }
+}
+
+
+.listPage{
+  padding:10px;
+  text-align: center;
+  list-style: none;
+}
+.listPage li{
+  background-color: #ffffffBD;
+  padding:20px;
+  display: inline-block;
+  margin:0 10px;
+  cursor: pointer;
+}
+.listPage .active{
+  background-color: #B192EF;
+  color:#fff;
 }
