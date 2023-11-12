@@ -1,0 +1,1 @@
+A simple dice simulation using html css and vanilla JS
