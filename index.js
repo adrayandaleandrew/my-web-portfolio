@@ -1,5 +1,5 @@
 let thisPage = 1;
-let limit = 10;
+let limit = 8;
 let list = document.querySelectorAll('.projects-grid-list a');
 
 function loadItem(){
