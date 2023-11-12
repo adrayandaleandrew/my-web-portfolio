@@ -85,14 +85,14 @@ h2 {
 
 .projects-section {
   text-align: center;
-  padding: 1rem 0rem;  /*4rem 2rem;*/
+  padding: 4rem 0rem;  /*4rem 2rem;*/
   background: #45567d;
   width: 100%;
 }
 
 .projects-section-header {
   max-width: 640px;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 4rem auto;
   border-bottom: 0.2rem solid white;
   font-size: 2.7rem;
 }
@@ -114,7 +114,7 @@ h2 {
 /* for show all html */
 .projects-grid-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -277,7 +277,17 @@ footer > p {
   }
 }
 
+@media only screen and (max-width: 1920px) {
+  .projects-section {
+    text-align: center;
+    padding: 4rem 0rem;  /*4rem 2rem;*/
+    background: #45567d;
+    width: 100%;
+  }
+}
 
+
+/* FOR PAGINATION STYLES */
 .listPage{
   padding:10px;
   text-align: center;
